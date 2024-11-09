@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manas Choudhary - Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Manas Choudhary</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+    </nav>
+
+    <section id="hero" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Web Developer</p>
+        <a href="#projects" class="cta">View My Work</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm a 3rd-year Computer Engineering student with a foundation in front-end development and object-oriented
+            programming. I've worked on several projects using HTML, CSS, and JavaScript. Recently, I completed my JavaScript
+            studies and am now diving into backend development with Node.js to expand my skills and build full-stack applications.
+        </p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card web">
+                <h3>Frontend Project 1</h3>
+                <p>HTML, CSS & JavaScript projects</p>
+                <a href="https://github.com/manaschoudhary23/HTML-CSS-JAVASCRIPT-PROJECTS" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card mobile">
+                <h3>Frontend Project 2</h3>
+                <p>Fundraising Project</p>
+                <a href="https://github.com/manaschoudhary23/fundraising-" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card web">
+                <h3>Frontend Project 3</h3>
+                <p>Real estate website</p>
+                <a href="https://github.com/manaschoudhary23/Real-estate-website" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card web">
+                <h3>Frontend Project 4</h3>
+                <p>Future technology website</p>
+                <a href="https://github.com/manaschoudhary23/Future" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Git</div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <h2>My Certificates</h2>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <h3>Certificate in Web Development</h3>
+                <p>Microsoft web development workshop</p>
+                <a href="Manas  Choudhary.pdf" target="_blank" class="certificate-link">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <h3>JavaScript Course</h3>
+                <p>JavaScript course covering all fundamentals.</p>
+                <a href="javascript1.pdf" target="_blank" class="certificate-link">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <h3>RDBMS PostgreSQL Training</h3>
+                <p>RDBMS PostgreSQL.</p>
+                <a href="MANAS-CHOUDHARY-Participant-Certificate (1).pdf" target="_blank" class="certificate-link">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm" onsubmit="saveContactData(event)">
+            <input type="text" id="name" placeholder="Your Name" required autocomplete="off">
+            <input type="email" id="email" placeholder="Your Email" required autocomplete="off">
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>Connect with me on:</p>
+        <div class="social-links">
+            <a href="https://github.com/manaschoudhary23" target="_blank">GitHub</a>
+            <a href="mailto:manasschoudhary@gmail.com">Email</a>
+            <p>Contact No. = +91 8010814018</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
